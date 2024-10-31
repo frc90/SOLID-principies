@@ -11,6 +11,6 @@ Se basa en que el codigo debe de estar abierto a la extencion, cerrado a la modi
 
 ## L - (Liskov Substitution Principle)
 ### Principio de sustitusion de Liskov
-Se basa en 
+Se basa en las clases hijas deben poder ser remplazables por las clases padres
 
 
