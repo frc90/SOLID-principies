@@ -197,3 +197,9 @@ public class Service {
     }
 }
 ```
+
+NOTA: Esto codigo hace referencia al video de youtube de
+[Geekific](https://www.youtube.com/watch?v=HoA6aZPR5K0).
+Solo esta hecho para aprender como se aplica y practicar en el proceso.
+
+Hare ejemplos a partir de este caso, gracias a [Geekific](https://www.youtube.com/watch?v=HoA6aZPR5K0) he podido entender como funciona y como debo emplearlo.
