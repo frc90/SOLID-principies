@@ -1,21 +1,11 @@
 package liskov_substitution;
 
 // @Data
-public class VideoManager {
+public class VideoManager implements IVideo{
     private String title;
     private int time;
     private int likes;
     private int views;
-
-    public double getNumberOfHoursPlayed(){
-        return (time / 3600.0) * views;
-    }
-
-    public void playRandomAd(){
-        System.out.println("play an AD");
-    }
-
-
 
     public VideoManager(String title, int time, int likes, int views) {
         this.title = title;
@@ -54,6 +44,11 @@ public class VideoManager {
 
     public void setLikes(int likes) {
         this.likes = likes;
+    }
+
+    @Override
+    public double getNumberOfHoursPlayed() {
+        return 0;
     }
 }
 
